@@ -56,11 +56,13 @@ const App = () => {
   const weatherEmoji = getWeatherEmoji(current.condition.code, current.is_day);
 
   return (
-     <div className="text-center mb-6 md:mb-8">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2 drop-shadow-lg">
-            Weather
+    <div className="min-h-screen bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 p-4 md:p-8">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-8">
+          <h1 className="text-5xl md:text-6xl font-bold text-white mb-2 drop-shadow-lg">
+            👑 King Xer Weather
           </h1>
-          <p className="text-white text-sm sm:text-base md:text-lg opacity-90">Your Weather Forecaster</p>
+          <p className="text-white text-lg opacity-90">Your Royal Weather Forecast</p>
         </div>
 
         <div className="mb-8">
